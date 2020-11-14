@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "inlineTemplate": true,
+          "inlineTemplate": false,
           "inlineStyle": true,
           "skipTests": true
         },
@@ -104,6 +104,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "desenvolvedor-io-spa-com-angular"
+    }
+  },
+  "defaultProject": "desenvolvedor-io-spa-com-angular",
+  "cli": {
+    "analytics": "c07b689e-f76d-4e39-aa4c-6763f3cafcba"
+  }
 }
